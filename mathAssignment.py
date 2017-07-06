@@ -22,10 +22,10 @@
 
     #printing Average in list
 
-a = [1, 2, 5, 10, 255, 3]
-
-num = sum(a)
-
-avg = num / len(a)
-
-print avg
+# a = [1, 2, 5, 10, 255, 3]
+#
+# num = sum(a)
+#
+# avg = num / len(a)
+#
+# print avg
