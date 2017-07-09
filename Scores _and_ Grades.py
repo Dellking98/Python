@@ -1,7 +1,7 @@
 import random
 
-def grading():
-    for w in range(0,10):
+def grading(reps):
+    for w in range(0,reps):
         opt = random.randint(60,100)
         if opt >= 90 :
             print "Score:" , opt , "Your grade is A"
@@ -14,5 +14,5 @@ def grading():
 
 
 
-grading()
+grading(5)
 print "The Program is done. Bye now"
