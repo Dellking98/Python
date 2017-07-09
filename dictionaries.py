@@ -14,3 +14,49 @@ def myLife():
 
 
 myLife()
+
+#prat 1
+
+students = [
+     {'first_name':  'Michael', 'last_name' : 'Jordan'},
+     {'first_name' : 'John', 'last_name' : 'Rosales'},
+     {'first_name' : 'Mark', 'last_name' : 'Guillen'},
+     {'first_name' : 'KB', 'last_name' : 'Tonel'}
+]
+
+for val in students:
+    # length = 0
+    # length = len(students)
+    print val["first_name"],val['last_name']
+
+
+# part 2
+users = {
+ 'Students': [
+     {'first_name':  'Michael', 'last_name' : 'Jordan'},
+     {'first_name' : 'John', 'last_name' : 'Rosales'},
+     {'first_name' : 'Mark', 'last_name' : 'Guillen'},
+     {'first_name' : 'KB', 'last_name' : 'Tonel'}
+  ],
+ 'Instructors': [
+     {'first_name' : 'Michael', 'last_name' : 'Choi'},
+     {'first_name' : 'Martin', 'last_name' : 'Puryear'}
+  ]
+ }
+
+# print users['Students'][0]['first_name'],users['Students'][0]['last_name']
+
+
+def user1():
+    import random
+    num = 0
+    age = random.choice([7,9,10,11,12,17])
+    for val in users.keys():
+        x = users[val]
+        print val
+        for i in x:
+            num +=1
+            print num, "-",  i['first_name'], i['last_name'],"-" ,age
+
+
+user1()
