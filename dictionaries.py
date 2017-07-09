@@ -50,13 +50,14 @@ users = {
 def user1():
     import random
     num = 0
-    age = random.choice([7,9,10,11,12,17])
+
     for val in users.keys():
         x = users[val]
         print val
         for i in x:
             num +=1
-            print num, "-",  i['first_name'], i['last_name'],"-" ,age
+            length = len(i['first_name']) + len(i['last_name'])
+            print num, "-",  i['first_name'], i['last_name'],"-" , length
 
-
+# print len(users['Instructors'][0]['first_name'])
 user1()
