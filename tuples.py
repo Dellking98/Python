@@ -19,3 +19,16 @@ def tuples(arr):
 
 
 tuples(my_dict)
+
+
+name = ["Anna", "Eli", "Pariece", "Brendan", "Amy", "Shane", "Oscar"]
+favorite_animal = ["horse", "cat", "spider", "giraffe", "ticks", "dolphins", "llamas"]
+
+
+def makingDict(arr1 , arr2):
+    new_dict = zip(arr1, arr2)
+    new_dict2 = dict(new_dict)
+    print new_dict2
+
+makingDict(name,favorite_animal)
+
