@@ -15,3 +15,132 @@
 #
 # #average list
 # print sum/len(my_numbers)
+
+sI = 45
+mI = 100
+bI = 455
+eI = 0
+spI = -23
+sS = "Rubber baby buggy bumpers"
+mS = "Experience is simply the name we give our mistakes"
+bS = "Tell me and I forget. Teach me and I remember. Involve me and I learn."
+eS = ""
+aL = [1,7,4,21]
+mL = [3,5,7,34,3,2,113,65,8,89]
+lL = [4,34,22,68,9,13,3,5,7,9,2,12,45,923]
+eL = []
+spL = ['name','address','phone number','social security number']
+
+# set one of the above variables as the current one I'm testing
+current_tester = lL
+
+curr_type = type(current_tester)
+if curr_type is int:
+    if current_tester >= 100:
+        print "That's a big number!"
+    else:
+        print "That's a small number!"
+elif curr_type is str:
+    if len(current_tester) >= 50:
+        print "Long sentence."
+    else:
+        print "Short sentence."
+elif isinstance(current_tester, list):
+    if len(current_tester) >= 10:
+        print "Big list!"
+    else:
+        print "Short list."
+
+        # l = [2,6,4,3,7,8,1]
+        #
+        # l1 = l[:len(l)/2]
+        #
+        # print l1
+        #
+        # l2  = l[len(l)/2:]
+        #
+        # print l2
+        #
+        # l1.insert(0, l2)
+        #
+        # print l1
+        #
+        # dog = ("Canis Familiaris", "dog", "carnivore", 12)
+        #
+        # # dog += ('cat',)
+        # #
+        # # dog = dog[:3] + ("man's best friend",) + dog[4:]
+        #
+        # print sorted(dog)
+        #
+        # print dog
+        # import math
+        #
+        # def get_circle_area(r):
+        # #Return (circumference, area) of a circle of radius r
+        #     c = 2 * math.pi * r
+        #     a = math.pi * r * r
+        #     return (c, a)
+        #
+        # print 'This is the right why', get_circle_area (30
+        # shoes = {
+        #
+        # }
+
+        # # 'Adidas': 'Reebok', "Puma" : 'EvoPower', 'Nike': 'Air Jordan'
+        # shoes["Adidas"] = "Reebox"
+        # shoes["Puma"] = "EvoPower"
+        # shoes["Nike"] = "Air Jorden"
+        #
+        # shoes["Adidas"] = "Sold Out"
+        #
+        # print shoes["Adidas"]
+        #
+        # for data in shoes:
+        #     print data
+        #
+        # for key in shoes.iterkeys():
+        #     print key
+        #
+        # for val in shoes.itervalues():
+        #     testing_test = type(val)
+        #     print testing_test
+        #
+        # for key,data in shoes.iteritems():
+        #     print key, "-", data
+        #
+        # print type(shoes)
+        #
+        #
+        # context = {
+        #   'questions': [
+        #    { 'id': 1, 'content': 'Why is there a light in the fridge and not in the freezer?'},
+        #    { 'id': 2, 'content': 'Why don\'t sheep shrink when it rains?'},
+        #    { 'id': 3, 'content': 'Why are they called apartments when they are all stuck together?'},
+        #    { 'id': 4, 'content': 'Why do cars drive on the parkway and park on the driveway?'}
+        #   ]
+        #  }
+        #
+        # for key,data in context.iteritems():
+        #     for value in data:
+        #         print "This are the questions :", value['content']
+        #
+        # print "This are the questions :", context['questions'][1]['content']
+
+
+        # data ={"house":"Haus","cat":"Katze","red":"rot"}
+        # print data.items()
+        # allKeys = data.keys()
+        # print allKeys
+        #
+        # allvalues = data.values()
+        # print allvalues
+
+        dishes = ["pizza", "sauerkraut", "paella", "hamburger"]
+        countries = ["Italy", "Germany", "Spain", "USA"]
+
+        combine = zip(dishes,countries)
+        print combine
+
+        combine_dict = dict(combine)
+        print combine_dict
