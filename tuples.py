@@ -11,6 +11,7 @@ my_dict = {
 # myinfo = zip( my_dict , x)
 # print myinfo
 
+<<<<<<< HEAD
 def tuples(input_dict):
     result = []
     for key,value in input_dict.items():
@@ -21,10 +22,18 @@ def tuples(input_dict):
     # key = arr.iterkeys()
     # values = arr.itervalues()
     # print zip(key, values)
+=======
+def tuples(arr):
+
+    key = arr.iterkeys()
+    values = arr.itervalues()
+    print zip(key, values)
+>>>>>>> 9878711c4b76d121acbc1a646c75e85c4c11a2d2
 
 
 tuples(my_dict)
 
+<<<<<<< HEAD
 # Making Dictionaries
 # Create a function that takes in two lists and creates a single dictionary where the first list contains keys
 # and the second values. Assume the lists will be of equal length.
@@ -40,3 +49,17 @@ tuples(my_dict)
 #     print new_dict2
 #
 # makingDict(name,favorite_animal)
+=======
+
+name = ["Anna", "Eli", "Pariece", "Brendan", "Amy", "Shane", "Oscar"]
+favorite_animal = ["horse", "cat", "spider", "giraffe", "ticks", "dolphins", "llamas"]
+
+
+def makingDict(arr1 , arr2):
+    new_dict = zip(arr1, arr2)
+    new_dict2 = dict(new_dict)
+    print new_dict2
+
+makingDict(name,favorite_animal)
+
+>>>>>>> 9878711c4b76d121acbc1a646c75e85c4c11a2d2

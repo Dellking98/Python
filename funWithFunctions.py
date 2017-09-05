@@ -3,6 +3,7 @@
 #
 # Your program output should look like below:
 
+<<<<<<< HEAD
 def odd_even():
     for i in range(1,2000+1):
         if i % 2 != 0:
@@ -11,6 +12,16 @@ def odd_even():
             print "Number is" , i , "This is an Even numder"
 
 odd_even()
+=======
+# def odd_even():
+#     for i in range(1,2000+1):
+#         if i % 2 != 0:
+#             print "Number is" , i , "This is an odd numder"
+#         else:
+#             print "Number is" , i , "This is an Even numder"
+#
+# odd_even()
+>>>>>>> 9878711c4b76d121acbc1a646c75e85c4c11a2d2
 
 # Create a function called 'multiply' that iterates through each value in a list (e.g. a = [2, 4, 10, 16]) and returns a list where each value has been multiplied by 5.
 #
@@ -42,6 +53,7 @@ print a
 
 
 
+<<<<<<< HEAD
 # def odd_even():
 #     for x in range(1, 2001):
 #         if x % 2 == 0:
@@ -72,3 +84,17 @@ print a
 #
 # x = layered_multiples(multiply([2,4,5],3))
 # print x
+=======
+# def multiply_arr(arr):
+#     print arr
+#     new_arr =[]
+#     for a in arr:
+#         val_arr = []
+#         for w in range(0,a):
+#             val_arr.append(1)
+#         new_arr.append(val_arr)
+#     return new_arr
+#
+# a = multiply_arr(multiply([3,3,1,2,3],3))
+# print a
+>>>>>>> 9878711c4b76d121acbc1a646c75e85c4c11a2d2

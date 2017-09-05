@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # # Create a dictionary containing some information about yourself.
 # # The keys should include name, age, country of birth, favorite language.
 #
@@ -31,6 +32,41 @@
 #
 #
 # # part 2
+=======
+# Create a dictionary containing some information about yourself.
+# The keys should include name, age, country of birth, favorite language.
+
+thisIsME = {
+'name':'Dell',
+'age':"26",
+'country of birth':"USA",
+'favorite':'Red'
+}
+
+def myLife():
+    for key,values in thisIsME.items():
+        print "My", key,  "is" , values
+
+
+myLife()
+
+#prat 1
+
+students = [
+     {'first_name':  'Michael', 'last_name' : 'Jordan'},
+     {'first_name' : 'John', 'last_name' : 'Rosales'},
+     {'first_name' : 'Mark', 'last_name' : 'Guillen'},
+     {'first_name' : 'KB', 'last_name' : 'Tonel'}
+]
+
+for val in students:
+    # length = 0
+    # length = len(students)
+    print val["first_name"],val['last_name']
+
+
+# part 2
+>>>>>>> 9878711c4b76d121acbc1a646c75e85c4c11a2d2
 users = {
  'Students': [
      {'first_name':  'Michael', 'last_name' : 'Jordan'},

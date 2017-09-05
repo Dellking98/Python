@@ -1,4 +1,5 @@
 # Create a program that prints a multiplication table in your console.
+<<<<<<< HEAD
 #
 # print ' x 1 2 3 4 5 6 7 8 9 10 11 12'
 # for row in range(1, 12 + 1):
@@ -10,6 +11,8 @@
 #             display_string += ' ' + str(column * row)
 #     print display_string
 
+=======
+>>>>>>> 9878711c4b76d121acbc1a646c75e85c4c11a2d2
 
 print 'x 1 2 3 4 5 6 7 8 9 10 12'
 

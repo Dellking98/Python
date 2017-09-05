@@ -14,6 +14,7 @@ def coing_tosses(Tosses):
 
 
 coing_tosses(5001)
+<<<<<<< HEAD
 #
 # import random
 #
@@ -38,3 +39,5 @@ coing_tosses(5001)
 #         attempt_count += 1
 #
 # toss(5001)
+=======
+>>>>>>> 9878711c4b76d121acbc1a646c75e85c4c11a2d2
